@@ -155,21 +155,42 @@
         to { opacity: 1; transform: translateY(0); }
     }
 
-    @media (max-width: 900px) {
-        .container {
-            flex-direction: column;
-            align-items: center;
-        }
+   @media (max-width: 900px) {
+      .container {
+          flex-direction: column;
+          align-items: center;
+          padding: 30px 10px;
+          gap: 20px;
+      }
 
-        .character-img {
-            max-width: 50%;
-            margin-top: 20px;
-        }
+      .character-img {
+          max-width: 50%;
+          margin-top: 20px;
+      }
 
-        .content {
-            box-shadow: none;
-            animation: none;
-        }
+      .content {
+          box-shadow: none;
+          animation: none;
+      }
+
+      header h1 {
+          font-size: 2rem;
+      }
+
+      header p {
+          font-size: 1rem;
+      }
+
+      .links .link-btn {
+          padding: 10px 20px;
+          font-size: 1rem;
+      }
+
+      .about {
+          font-size: 1rem;
+          padding: 15px;
+      }
+  }
     }
 </style>
 </head>
